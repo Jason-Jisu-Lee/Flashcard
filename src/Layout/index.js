@@ -12,26 +12,26 @@ import AddCard from "../Home/Deck/AddCard";
 
 function Layout() {
   return (
-    <div>
+    < >
       <Header />
       <div className="container">
         <Switch>
-          <Route exact path = "/decks/new">
+          <Route path = "/decks/new">
             <CreateDeck />
           </Route>
-          <Route exact path = "/decks/:deckId/cards/:cardId/edit">
+          <Route path = "/decks/:deckId/cards/:cardId/edit">
             <EditCard />
           </Route>
-          <Route exact path = "/decks/:deckId/cards/new">
+          <Route path = "/decks/:deckId/cards/new">
             <AddCard />
           </Route>
-          <Route exact path = "/decks/:deckId/edit">
+          <Route path = "/decks/:deckId/edit">
             <EditDeck />
           </Route>
-          <Route exact path = "/decks/:deckId/study">
+          <Route path = "/decks/:deckId/study">
             <Study />
           </Route>
-          <Route exact path = "/decks/:deckId">
+          <Route path = "/decks/:deckId">
             <Deck />
           </Route>
           <Route exact path = "/">
@@ -42,7 +42,7 @@ function Layout() {
           </Route>
         </Switch>
       </div>
-    </div>
+    < />
   );
 }
 
