@@ -7,4 +7,3 @@ The user is able to create, edit, delete and study decks and cards.
 
 - Made API calls to create, read, update, and delete records.
 - Defined routes and URLs, and used state over multiple components.
-- Built with JavaScript, React, HTML, and CSS.
