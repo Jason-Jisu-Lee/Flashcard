@@ -7,3 +7,7 @@ The user is able to create, edit, delete and study decks and cards.
 
 - Made API calls to create, read, update, and delete records.
 - Defined routes and URLs, and used state over multiple components.
+
+Thank you for checking out my app :) <br />
+— Jason Lee<br />
+Connect with me on [LinkedIn](https://www.linkedin.com/in/jason-jisu-lee)
