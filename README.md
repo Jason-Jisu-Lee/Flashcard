@@ -1,4 +1,4 @@
-# Under Construction... #
+# No longer supported :( #
 
 # Flashcard-o-matic
 
